@@ -1,7 +1,8 @@
+
 {
   "latestVersion": "1.0",
   "versionCode": 1,
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA/releases/download/1.0/app-release.apk",
-  "releaseNotes": "JARVIS Version 1.0 - Initial stable release.",
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/1.0/app-release.apk",
+  "releaseNotes": "Official JARVIS release by SILENT SOUL.",
   "mandatory": false
 }
