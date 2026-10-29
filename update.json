@@ -1,7 +1,21 @@
 {
-  "latestVersion": "2.0.0",
-  "versionCode": 2,
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.0.0/app-release.apk",
-  "releaseNotes": "Official JARVIS release by SILENT SOUL.",
-  "mandatory": false
+  "latestVersion": "2.0.5",
+  "versionCode": 5,
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.0.5/app-release.apk",
+  "releaseNotes": "- Upgraded to Gemini 3.8 Live with Aoede neural emotional prosody.\n- Redesigned About dialog matching Upgrade UI.\n- Strict memory isolation between Assistant and Girlfriend modes.\n- Official JARVIS v2.0.5 release by SILENT SOUL.",
+  "mandatory": false,
+  "releaseHistory": [
+    {
+      "version": "2.0.5",
+      "versionCode": 5,
+      "releaseNotes": "- Gemini 3.8 Live with Aoede emotional prosody.\n- Redesigned About dialog.\n- Mode isolation and bug fixes.",
+      "date": "2026-10-29"
+    },
+    {
+      "version": "2.0.0",
+      "versionCode": 2,
+      "releaseNotes": "- AI Camera & Visual AI Scanner.\n- Notification Center.\n- In-App Update system.",
+      "date": "2026-10-28"
+    }
+  ]
 }
