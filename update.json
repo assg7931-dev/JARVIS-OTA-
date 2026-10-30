@@ -1,8 +1,8 @@
 {
-  "latestVersion": "2.0.6",
-  "versionCode": 6,
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.0.6/app-release.apk",
-  "sha256": "4d505b0c435f084fd3841f1b18d0fb55ec6bde51e714debc9fd15904ac1354e1",
-  "releaseNotes": "Official JARVIS release by SILENT SOUL.",
+  "latestVersion": "2.0.7",
+  "versionCode": 7,
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.0.7/app-release.apk",
+  "sha256": "325d5c7b17d783b22bab75adab46fe87254c240f10d2b487c3866d5eefd0228e",
+  "releaseNotes": "# JARVIS v2.0.7 Release Notes\n\n### Highlights:\n- **Permanent Developer Branding**: The navigation drawer header and footer now permanently display the developer attribution \"By SILENT SOUL\".\n- **Decoupled User Identity**: Users can freely customize their operator name in Persona & Settings without modifying the developer credits.\n- **Dynamic Versioning & OTA**: Full synchronization with dynamic version management and SHA-256 verified OTA downloads.",
   "mandatory": false
 }
