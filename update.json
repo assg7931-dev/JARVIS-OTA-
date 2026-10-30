@@ -1,8 +1,8 @@
 {
   "latestVersion": "2.0.8",
   "versionCode": 8,
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.0.8/app-release.apk",
-  "sha256": "f1efd1596573fa0273367832897e3f2be3878f7b8c4002610012e04034369311",
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/v2.0.8/app-release.apk",
+  "sha256": "f7a01b42d389283dda7c166e1b10002e72515d93c128e8041af6787e4363ef12",
   "releaseNotes": "# JARVIS v2.0.8 Release Notes\n\n### Highlights & New Features:\n- **Advanced Trilingual Afreen**: Deep emotional companion upgrade with fluent conversational Hindi (Devanagari script), natural Hinglish (Roman script), and warm English.\n- **High-Precision Scan AI**: Real-time object recognition, document reading, environment perception, and contextual multi-turn vision Q&A.\n- **Universal Live Sports & Web Intelligence**: Real-time scores and statistics for up to 50 live matches across Cricket, Football, Badminton, and Tennis with bilingual team names and Hindi match support.\n- **14-Language System Restored**: Permanent removal of auto-detect; full manual language selection restored across 14 languages (Hindi, Hinglish, English, Telugu, Tamil, Kannada, Malayalam, Bengali, Marathi, Gujarati, Bhojpuri, Punjabi, Odia, Urdu).\n- **Seamless 4-Mode Personality Switching**: Smooth transition between JARVIS Pro, Afreen, Gemini, and Silent Soul with shared awareness and instant reconnect.\n- **Smart Differential OTA Updates**: Chunked differential downloads with pause/resume support, SHA-256 verification, and robust fallback.\n- **Developer Attribution Preserved**: Permanent \"By SILENT SOUL\" branding in navigation drawer header and footer.",
   "mandatory": false
 }
