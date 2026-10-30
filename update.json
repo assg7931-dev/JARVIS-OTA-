@@ -1,7 +1,8 @@
 {
-  "latestVersion": "2.0.5",
-  "versionCode": 5,
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.0.5/app-release.apk",
+  "latestVersion": "2.0.6",
+  "versionCode": 6,
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.0.6/app-release.apk",
+  "sha256": "4d505b0c435f084fd3841f1b18d0fb55ec6bde51e714debc9fd15904ac1354e1",
   "releaseNotes": "Official JARVIS release by SILENT SOUL.",
   "mandatory": false
 }
