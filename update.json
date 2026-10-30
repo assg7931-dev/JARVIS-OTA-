@@ -1,8 +1,8 @@
 {
   "latestVersion": "2.0.9",
   "versionCode": 9,
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.0.9/app-release.apk",
-  "sha256": "b3d7753e4d6eec61a33d1155307a63981c63a42bb71d6236e3545134485cb8eb",
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/v2.0.9/app-release.apk",
+  "sha256": "ae6c6302774f63a2c00e75aaa308a07957e5a82c24adb36d2194766acb39f814",
   "releaseNotes": "# JARVIS v2.0.9 Release Notes\n\n### Highlights & New Features:\n- **Afreen Natural Islamic Expressions & Kalimat**: Authentic, respectful usage of common Islamic expressions (*Alhamdulillah, Mashallah, SubhanAllah, InshaAllah, Astaghfirullah, Bismillah, Allahu Akbar, JazakAllah Khair, BarakAllahu Feek, Assalamu Alaikum, Wa Alaikum Assalam*) exclusively in Girlfriend Mode.\n- **Contextual Emoji Intelligence**: Emotional mapping for chat messages (love, joy, care, sympathy, excitement, appreciation, duas, playful banter) with strict restraint against emoji chains.\n- **Voice & Text Synchronization**: Emojis are strictly visual in chat bubbles; Google Gemini Live neural voice Aoede and local speech engines never vocalize emoji names.\n- **Explicit Consent Memory System**: Completely neutralized conversational auto-memory scraping; casual chit-chat is never saved as permanent memory.\n- **User Profile Name Protection**: Name changes are strictly locked to explicit profile settings; conversational names or nicknames can never overwrite the user's name. Corrupted profile names are automatically sanitized on startup.\n- **Room Database Migration v2**: Added explicit consent tracking (`isExplicitConsent`), auto-purge of corrupt records, and an in-app \"Clear Auto-Saved\" memory review tool.\n- **Strict Personality Isolation**: All Afreen companion features remain 100% isolated from JARVIS Pro (executive butler) and Silent Soul (neural core).",
   "mandatory": false
 }
