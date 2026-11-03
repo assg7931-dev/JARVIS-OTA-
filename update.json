@@ -6,11 +6,11 @@
   "gracePeriod": {
     "versionCode": 13,
     "versionName": "v13",
-    "graceExpiryUtc": "2026-11-03T13:31:11Z",
+    "graceExpiryUtc": "2026-11-03T13:31:34Z",
     "warningMessage": "Aapka previous version band hone wala hai. Kripya time rehte naya version install karein."
   },
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.3.1/app-release.apk",
-  "sha256": "95bc441c0ec0dcc42d5e59e4de8c08a7f411ec67eaf2e7897b9e0ec77eaac7a2",
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/v2.3.1/app-release.apk",
+  "sha256": "9f55ca7d90208bc0ca6c8da6497d01f627cac0baa267ce54f8b98fd70a04b901",
   "releaseNotes": "# JARVIS v2.3.1 Release Notes\n\n> \u26a0\ufe0f **CRITICAL UPDATE MANDATORY / ZAROORI NOTICE:**  \n> Is naye version (v2.3.1) ke aane ke baad purane sabhi versions ko permanently block kar diya gaya hai. Previous version ke paas sirf limited 3 ghante ka grace period countdown hai, jiske baad app work nahi karegi. App use karne ke liye foran naya update install karna zaroori hai!\n\n### Key Updates & Highlights:\n\n- **100% Non-Root Native Automation:** Superuser/root dependencies ko permanently eliminate kar diya gaya hai; ab poori automation, gestures, reels scrolling, aur controls Android Accessibility Service ke zariye unrooted devices par bina kisi risk ke smoothly chalte hain.\n- **Cross-App Messaging & In-Chat Smart Typing:** WhatsApp, Instagram, Telegram aur SMS par voice-command se hands-free message typing aur auto-sending enable kar di gayi hai, chahe aap kisi bhi chat screen ke andar hon.\n- **Clean & Unified App Identity Modal:** \"About JARVIS\" aur \"App Identity\" dialogs ko clean aur synchronized banaya gaya hai jisme verified **SILENT SOUL** attribution, zero security certificate clutter, aur direct Instagram (`@arif._.96`) + Telegram (`@arif_x9`) channels integrated hain.\n- **Girlfriend Mode (Afreen) Polish & Cleanup:** AI companion ke turn ke aakhir mein aane wale trailing unknown/religious words aur hallucinations ko permanently block kar diya gaya hai aur voice warmth ko 0.70 temperature par calibrate kiya gaya hai.\n- **Strict Tiered Deprecation & Automatic Grace Period:** Obsolete versions ko open hote hi non-dismissible screen ke sath foran hard-block kiya jata hai (background AI kill ho jati hai), jabki immediate previous build ko 3-hour live countdown timer milta hai.\n- **Zero-Backend Privacy Governance:** UI aur source code se open-source references ko completely remove karke 7-Article On-Device Data Sovereignty policy implement kar di gayi hai.",
   "mandatory": true
 }
