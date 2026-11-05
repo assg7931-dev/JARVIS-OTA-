@@ -6,11 +6,11 @@
   "gracePeriod": {
     "versionCode": 15,
     "versionName": "v15",
-    "graceExpiryUtc": "2026-11-05T19:19:16Z",
+    "graceExpiryUtc": "2026-11-05T19:21:38Z",
     "warningMessage": "Aapka previous version band hone wala hai. Kripya time rehte naya version install karein."
   },
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.3.3/app-release.apk",
-  "sha256": "0a8a293fcdcafe43b36ae06b2f0d4254009b0d3be37e2d9f65ff96a315a6de3f",
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/v2.3.3/app-release.apk",
+  "sha256": "0c584feb3e8581b39e9b8f8a6e4647b3abe8504ed2ba4edf0d412a58bb64f3d8",
   "releaseNotes": "# JARVIS v2.3.3 Release Notes\n\n> \u26a0\ufe0f **MANDATORY UPDATE NOTICE:**  \n> Naya version (v2.3.3) install karna zaroori hai. Obsolete versions par access block kar diya gaya hai.\n\n### What's New in v2.3.3:\n\n- **Afreen Real Girlfriend Mode Overhaul:** \n  Natural human speech dynamics, sweet teasing, caring scolding (\"haq se daantna\"), bedtime pillow talk, and zero robotic or servant-like phrasing.\n- **Neural Audio Vocoder Glitch Fix:** \n  Completely eliminated trailing emoji artifacts (such as \"ran\", \"ram\", \"radhe\") from live spoken audio while maintaining contextual emojis in chat UI.\n- **Dynamic 4-in-1 Adaptive Moods:** \n  Seamless real-time emotional transitions (Romantic, Teasing, Caring Sanctuary, Casual Everyday) without manual mode toggling.\n- **Zero Raw Emojis in Audio Stream:** \n  Enforced 100% pure human spoken words with natural sentence closure.\n- **Performance & Stability:** \n  Optimized live prompt tokens and ultra-fast WebSocket audio responsiveness.",
   "mandatory": true
 }
