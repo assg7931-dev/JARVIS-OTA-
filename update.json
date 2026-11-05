@@ -1,16 +1,16 @@
 {
-  "latestVersion": "2.3.2",
-  "versionCode": 15,
-  "minSupportedVersionCode": 15,
-  "hardBlockedBeforeCode": 14,
+  "latestVersion": "2.3.3",
+  "versionCode": 16,
+  "minSupportedVersionCode": 16,
+  "hardBlockedBeforeCode": 15,
   "gracePeriod": {
-    "versionCode": 14,
-    "versionName": "v14",
-    "graceExpiryUtc": "2026-11-03T14:55:50Z",
+    "versionCode": 15,
+    "versionName": "v15",
+    "graceExpiryUtc": "2026-11-05T19:19:16Z",
     "warningMessage": "Aapka previous version band hone wala hai. Kripya time rehte naya version install karein."
   },
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.3.2/app-release.apk",
-  "sha256": "e8c3dbe0bdce9fbdd05990e29586f7f30a75fcc1ff3aa8305e12d50c36ee134a",
-  "releaseNotes": "# JARVIS v2.3.2 Release Notes\n\n> \u26a0\ufe0f **CRITICAL UPDATE MANDATORY / ZAROORI NOTICE:**  \n> Is naye version (v2.3.2) ke aane ke baad purane sabhi versions ko permanently block kar diya gaya hai. Previous version ke paas sirf limited 3 ghante ka grace period countdown hai, jiske baad app work nahi karegi. App use karne ke liye foran naya update install karna zaroori hai!\n\n### Key Updates & Highlights:\n\n- **ProGuard Keep & Native Update Parser:** Update verification system ko ProGuard reflection dependency se completely decouple kar diya gaya hai; native JSON parsing se crash solve ho gaya hai aur seamless update detection restored hai.\n\n- **100% Non-Root Native Automation:** Superuser/root dependencies ko permanently eliminate kar diya gaya hai; ab poori automation, gestures, reels scrolling, aur controls Android Accessibility Service ke zariye unrooted devices par bina kisi risk ke smoothly chalte hain.\n- **Cross-App Messaging & In-Chat Smart Typing:** WhatsApp, Instagram, Telegram aur SMS par voice-command se hands-free message typing aur auto-sending enable kar di gayi hai, chahe aap kisi bhi chat screen ke andar hon.\n- **Clean & Unified App Identity Modal:** \"About JARVIS\" aur \"App Identity\" dialogs ko clean aur synchronized banaya gaya hai jisme verified **SILENT SOUL** attribution, zero security certificate clutter, aur direct Instagram (`@arif._.96`) + Telegram (`@arif_x9`) channels integrated hain.\n- **Girlfriend Mode (Afreen) Polish & Cleanup:** AI companion ke turn ke aakhir mein aane wale trailing unknown/religious words aur hallucinations ko permanently block kar diya gaya hai aur voice warmth ko 0.70 temperature par calibrate kiya gaya hai.\n- **Strict Tiered Deprecation & Automatic Grace Period:** Obsolete versions ko open hote hi non-dismissible screen ke sath foran hard-block kiya jata hai (background AI kill ho jati hai), jabki immediate previous build ko 3-hour live countdown timer milta hai.\n- **Zero-Backend Privacy Governance:** UI aur source code se open-source references ko completely remove karke 7-Article On-Device Data Sovereignty policy implement kar di gayi hai.",
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.3.3/app-release.apk",
+  "sha256": "0a8a293fcdcafe43b36ae06b2f0d4254009b0d3be37e2d9f65ff96a315a6de3f",
+  "releaseNotes": "# JARVIS v2.3.3 Release Notes\n\n> \u26a0\ufe0f **MANDATORY UPDATE NOTICE:**  \n> Naya version (v2.3.3) install karna zaroori hai. Obsolete versions par access block kar diya gaya hai.\n\n### What's New in v2.3.3:\n\n- **Afreen Real Girlfriend Mode Overhaul:** \n  Natural human speech dynamics, sweet teasing, caring scolding (\"haq se daantna\"), bedtime pillow talk, and zero robotic or servant-like phrasing.\n- **Neural Audio Vocoder Glitch Fix:** \n  Completely eliminated trailing emoji artifacts (such as \"ran\", \"ram\", \"radhe\") from live spoken audio while maintaining contextual emojis in chat UI.\n- **Dynamic 4-in-1 Adaptive Moods:** \n  Seamless real-time emotional transitions (Romantic, Teasing, Caring Sanctuary, Casual Everyday) without manual mode toggling.\n- **Zero Raw Emojis in Audio Stream:** \n  Enforced 100% pure human spoken words with natural sentence closure.\n- **Performance & Stability:** \n  Optimized live prompt tokens and ultra-fast WebSocket audio responsiveness.",
   "mandatory": true
 }
