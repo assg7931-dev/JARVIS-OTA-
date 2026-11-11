@@ -6,11 +6,11 @@
   "gracePeriod": {
     "versionCode": 16,
     "versionName": "v16",
-    "graceExpiryUtc": "2026-11-11T20:19:00Z",
+    "graceExpiryUtc": "2026-11-11T20:19:02Z",
     "warningMessage": "Aapka previous version band hone wala hai. Kripya time rehte naya version install karein."
   },
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.3.4/app-release.apk",
-  "sha256": "2d5eaa0e0e354485757f9a51306e15dad395f2fe4158e8de519e04e5d2c9bee4",
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/v2.3.4/app-release.apk",
+  "sha256": "69791a304ec0130b7393bced799629858b7e7dbee4c47b524304341948bf8964",
   "releaseNotes": "# JARVIS v2.3.4 Release Notes\n\n> \u26a0\ufe0f **MANDATORY UPDATE NOTICE:**  \n> Naya version (v2.3.4) install karna zaroori hai. Obsolete versions par access block kar diya gaya hai.\n\n### What's New in v2.3.4:\n\n- **Afreen Soul Mode (Enhanced Asli Emotions):**\n  Deep romantic girlfriend chemistry with authentic living breath, soft vocal sighs, playful chuckles, and intimate vocal presence.\n- **Zero Voice Breaks & Low Latency Streaming:**\n  Optimized AudioTrack pipeline with pre-fill before play and immediate queue draining for continuous, unbroken speech delivery.\n- **Complete Spoken Thought Delivery:**\n  Extended DAC buffer drainage (360ms) ensuring every sentence finishes completely without trailing truncation or words cutting off.\n- **Continuous Dialogue Memory & Chat Recall:**\n  Full conversational memory in Soul Mode remembering what user and Afreen discussed, with synchronized live transcription.\n- **Persona UI Integration:**\n  Dedicated Afreen Soul Mode toggle in AI Persona settings with clean persistence.",
   "mandatory": true
 }
