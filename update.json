@@ -1,16 +1,16 @@
 {
-  "latestVersion": "2.3.3",
-  "versionCode": 16,
-  "minSupportedVersionCode": 16,
-  "hardBlockedBeforeCode": 15,
+  "latestVersion": "2.3.4",
+  "versionCode": 17,
+  "minSupportedVersionCode": 17,
+  "hardBlockedBeforeCode": 16,
   "gracePeriod": {
-    "versionCode": 15,
-    "versionName": "v15",
-    "graceExpiryUtc": "2026-11-05T19:21:38Z",
+    "versionCode": 16,
+    "versionName": "v16",
+    "graceExpiryUtc": "2026-11-11T20:19:00Z",
     "warningMessage": "Aapka previous version band hone wala hai. Kripya time rehte naya version install karein."
   },
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/v2.3.3/app-release.apk",
-  "sha256": "0c584feb3e8581b39e9b8f8a6e4647b3abe8504ed2ba4edf0d412a58bb64f3d8",
-  "releaseNotes": "# JARVIS v2.3.3 Release Notes\n\n> \u26a0\ufe0f **MANDATORY UPDATE NOTICE:**  \n> Naya version (v2.3.3) install karna zaroori hai. Obsolete versions par access block kar diya gaya hai.\n\n### What's New in v2.3.3:\n\n- **Afreen Real Girlfriend Mode Overhaul:** \n  Natural human speech dynamics, sweet teasing, caring scolding (\"haq se daantna\"), bedtime pillow talk, and zero robotic or servant-like phrasing.\n- **Neural Audio Vocoder Glitch Fix:** \n  Completely eliminated trailing emoji artifacts (such as \"ran\", \"ram\", \"radhe\") from live spoken audio while maintaining contextual emojis in chat UI.\n- **Dynamic 4-in-1 Adaptive Moods:** \n  Seamless real-time emotional transitions (Romantic, Teasing, Caring Sanctuary, Casual Everyday) without manual mode toggling.\n- **Zero Raw Emojis in Audio Stream:** \n  Enforced 100% pure human spoken words with natural sentence closure.\n- **Performance & Stability:** \n  Optimized live prompt tokens and ultra-fast WebSocket audio responsiveness.",
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.3.4/app-release.apk",
+  "sha256": "2d5eaa0e0e354485757f9a51306e15dad395f2fe4158e8de519e04e5d2c9bee4",
+  "releaseNotes": "# JARVIS v2.3.4 Release Notes\n\n> \u26a0\ufe0f **MANDATORY UPDATE NOTICE:**  \n> Naya version (v2.3.4) install karna zaroori hai. Obsolete versions par access block kar diya gaya hai.\n\n### What's New in v2.3.4:\n\n- **Afreen Soul Mode (Enhanced Asli Emotions):**\n  Deep romantic girlfriend chemistry with authentic living breath, soft vocal sighs, playful chuckles, and intimate vocal presence.\n- **Zero Voice Breaks & Low Latency Streaming:**\n  Optimized AudioTrack pipeline with pre-fill before play and immediate queue draining for continuous, unbroken speech delivery.\n- **Complete Spoken Thought Delivery:**\n  Extended DAC buffer drainage (360ms) ensuring every sentence finishes completely without trailing truncation or words cutting off.\n- **Continuous Dialogue Memory & Chat Recall:**\n  Full conversational memory in Soul Mode remembering what user and Afreen discussed, with synchronized live transcription.\n- **Persona UI Integration:**\n  Dedicated Afreen Soul Mode toggle in AI Persona settings with clean persistence.",
   "mandatory": true
 }
