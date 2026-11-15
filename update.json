@@ -6,11 +6,11 @@
   "gracePeriod": {
     "versionCode": 17,
     "versionName": "v17",
-    "graceExpiryUtc": "2026-11-15T17:53:59Z",
+    "graceExpiryUtc": "2026-11-15T17:54:29Z",
     "warningMessage": "Aapka previous version band hone wala hai. Kripya time rehte naya version install karein."
   },
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/v2.3.5/app-release.apk",
-  "sha256": "8e7f30a47af3eb2e175353293b4fea4f90525105c896657da8763bd831fc9b3b",
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.3.5/app-release.apk",
+  "sha256": "224484d0ffe7b40ca6903178489954989c4d28e6de426c6d1e309ac005bec749",
   "releaseNotes": "# JARVIS v2.3.5 Release Notes\n\n### What's New in v2.3.5:\n\n- **User Rules Engine:**\n  Permanent user directives via voice & UI (`add_rule`, `update_rule`, `delete_rule`, `list_rules`) with automatic de-duplication, 60-rule limit, and absolute top priority prompt injection.\n- **PC \u21c4 Phone Remote Hub:**\n  Full remote PC control (`status`, `lock`, `pc_sleep`, `shutdown`, `cancel_shutdown`, `volume_up/down`, `jarvis_wake`) with dual-protocol request-response tracking and 7 quick-action buttons in settings.\n- **Phone Locator & Alarm Control:**\n  Loud ringer override (`ring_phone`) to locate misplaced phone even when silent, plus instant stop (`stop_ring`).\n- **Afreen Autonomous Web Architect:**\n  Elite colorful UI/UX website creation running silently in background, opening previews directly in JARVIS built-in browser (`sites.afreen.local`).\n- **Voice Guardian & Permissions Safety:**\n  Enhanced biometric voice gating with safe tool whitelisting (`list_rules`, `get_phone_battery`, `stop_ring`) to eliminate false intruder lockouts.\n- **Brand Purity & Performance Optimizations:**\n  Zero memory leaks on WebSocket disconnects, coroutine cancellation safety, and 100% clean Afreen branding across all subsystems.",
   "mandatory": true
 }
