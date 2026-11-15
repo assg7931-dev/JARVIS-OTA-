@@ -1,16 +1,16 @@
 {
-  "latestVersion": "2.3.4",
-  "versionCode": 17,
-  "minSupportedVersionCode": 17,
-  "hardBlockedBeforeCode": 16,
+  "latestVersion": "2.3.5",
+  "versionCode": 18,
+  "minSupportedVersionCode": 18,
+  "hardBlockedBeforeCode": 17,
   "gracePeriod": {
-    "versionCode": 16,
-    "versionName": "v16",
-    "graceExpiryUtc": "2026-11-11T20:20:33Z",
+    "versionCode": 17,
+    "versionName": "v17",
+    "graceExpiryUtc": "2026-11-15T17:53:59Z",
     "warningMessage": "Aapka previous version band hone wala hai. Kripya time rehte naya version install karein."
   },
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.3.4/app-release.apk",
-  "sha256": "251eac43bda87daedc34c9a52ba920a8682f62a6e823f955a9788b53c31c36ce",
-  "releaseNotes": "# JARVIS v2.3.4 Release Notes\n\n> \u26a0\ufe0f **MANDATORY UPDATE NOTICE:**  \n> Naya version (v2.3.4) install karna zaroori hai. Obsolete versions par access block kar diya gaya hai.\n\n### What's New in v2.3.4:\n\n- **Afreen Soul Mode (Enhanced Asli Emotions):**\n  Deep romantic girlfriend chemistry with authentic living breath, soft vocal sighs, playful chuckles, and intimate vocal presence.\n- **Zero Voice Breaks & Low Latency Streaming:**\n  Optimized AudioTrack pipeline with pre-fill before play and immediate queue draining for continuous, unbroken speech delivery.\n- **Complete Spoken Thought Delivery:**\n  Extended DAC buffer drainage (360ms) ensuring every sentence finishes completely without trailing truncation or words cutting off.\n- **Continuous Dialogue Memory & Chat Recall:**\n  Full conversational memory in Soul Mode remembering what user and Afreen discussed, with synchronized live transcription.\n- **Persona UI Integration:**\n  Dedicated Afreen Soul Mode toggle in AI Persona settings with clean persistence.",
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/v2.3.5/app-release.apk",
+  "sha256": "8e7f30a47af3eb2e175353293b4fea4f90525105c896657da8763bd831fc9b3b",
+  "releaseNotes": "# JARVIS v2.3.5 Release Notes\n\n### What's New in v2.3.5:\n\n- **User Rules Engine:**\n  Permanent user directives via voice & UI (`add_rule`, `update_rule`, `delete_rule`, `list_rules`) with automatic de-duplication, 60-rule limit, and absolute top priority prompt injection.\n- **PC \u21c4 Phone Remote Hub:**\n  Full remote PC control (`status`, `lock`, `pc_sleep`, `shutdown`, `cancel_shutdown`, `volume_up/down`, `jarvis_wake`) with dual-protocol request-response tracking and 7 quick-action buttons in settings.\n- **Phone Locator & Alarm Control:**\n  Loud ringer override (`ring_phone`) to locate misplaced phone even when silent, plus instant stop (`stop_ring`).\n- **Afreen Autonomous Web Architect:**\n  Elite colorful UI/UX website creation running silently in background, opening previews directly in JARVIS built-in browser (`sites.afreen.local`).\n- **Voice Guardian & Permissions Safety:**\n  Enhanced biometric voice gating with safe tool whitelisting (`list_rules`, `get_phone_battery`, `stop_ring`) to eliminate false intruder lockouts.\n- **Brand Purity & Performance Optimizations:**\n  Zero memory leaks on WebSocket disconnects, coroutine cancellation safety, and 100% clean Afreen branding across all subsystems.",
   "mandatory": true
 }
