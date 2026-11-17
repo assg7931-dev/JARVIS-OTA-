@@ -1,16 +1,16 @@
 {
-  "latestVersion": "2.3.5",
-  "versionCode": 18,
-  "minSupportedVersionCode": 18,
-  "hardBlockedBeforeCode": 17,
+  "latestVersion": "2.3.6",
+  "versionCode": 19,
+  "minSupportedVersionCode": 19,
+  "hardBlockedBeforeCode": 18,
   "gracePeriod": {
-    "versionCode": 17,
-    "versionName": "v17",
-    "graceExpiryUtc": "2026-11-15T17:54:29Z",
+    "versionCode": 18,
+    "versionName": "v18",
+    "graceExpiryUtc": "2026-11-17T18:31:52Z",
     "warningMessage": "Aapka previous version band hone wala hai. Kripya time rehte naya version install karein."
   },
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.3.5/app-release.apk",
-  "sha256": "224484d0ffe7b40ca6903178489954989c4d28e6de426c6d1e309ac005bec749",
-  "releaseNotes": "# JARVIS v2.3.5 Release Notes\n\n### What's New in v2.3.5:\n\n- **User Rules Engine:**\n  Permanent user directives via voice & UI (`add_rule`, `update_rule`, `delete_rule`, `list_rules`) with automatic de-duplication, 60-rule limit, and absolute top priority prompt injection.\n- **PC \u21c4 Phone Remote Hub:**\n  Full remote PC control (`status`, `lock`, `pc_sleep`, `shutdown`, `cancel_shutdown`, `volume_up/down`, `jarvis_wake`) with dual-protocol request-response tracking and 7 quick-action buttons in settings.\n- **Phone Locator & Alarm Control:**\n  Loud ringer override (`ring_phone`) to locate misplaced phone even when silent, plus instant stop (`stop_ring`).\n- **Afreen Autonomous Web Architect:**\n  Elite colorful UI/UX website creation running silently in background, opening previews directly in JARVIS built-in browser (`sites.afreen.local`).\n- **Voice Guardian & Permissions Safety:**\n  Enhanced biometric voice gating with safe tool whitelisting (`list_rules`, `get_phone_battery`, `stop_ring`) to eliminate false intruder lockouts.\n- **Brand Purity & Performance Optimizations:**\n  Zero memory leaks on WebSocket disconnects, coroutine cancellation safety, and 100% clean Afreen branding across all subsystems.",
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.3.6/app-release.apk",
+  "sha256": "0e0e170da4b3579532fa6ddf13e7ccdaa1c5731590becc997b51a90c82f2d1a4",
+  "releaseNotes": "# JARVIS v2.3.6 Release Notes\n\n### What's New in v2.3.6:\n\n- **Instant Conversational Fast-Track & Semantic VAD:**\n  - Intelligent real-time completion detection (`isUtteranceComplete`) across Hindi, Urdu, Hinglish, Arabic, and English.\n  - Fast-tracks turn response generation on a natural ~150ms pause instead of forcing a 420ms\u2013680ms wait for completed statements.\n  - Dual-path endpointing: triggers turn commit directly upon complete transcript arrival and via the 20ms VAD audio frame loop.\n  - Anti-cutoff guard preserves the full adaptive dynamic silence window (420ms\u2013680ms) whenever trailing hesitation or conjunctions are detected.\n\n- **Real-Time Gemini Live Interim ASR Streaming:**\n  - Full ingestion support for `interimInputTranscription` and root-level transcript updates directly from Google Gemini Live WebSocket.\n  - Smart hypothesis merging eliminates duplicate tokens and provides real-time streaming speech text without latency.\n\n- **Enhanced Quran Tilawat & Tafseer Engine:**\n  - Mandatory Ta'awwudh (*A'udhu billah*) & Tasmiyah (*Bismillah*) opening recitation before any Surah/Ayah tilawat.\n  - Offline zero-latency playback for Surah Al-Fatiha and Surah Al-Baqarah (Verses 1\u201310) with cached multi-ayah streaming.\n  - Flexible multi-ayah range detection (e.g., *\"no 1 aayt se 10 tak\"*, *\"5 tak continue padho\"*) and polite Tarjuma/Tafseer inquiry flow.\n\n- **Loving Companion & UI Enhancements:**\n  - Preserved girlfriend / loving tone warmth and affection during Quran tilawat, translations, and everyday conversation.\n  - Interactive mic on/off tap button for easy manual toggling.\n  - Cleaned up footer layout with Gemini version and power details repositioned cleanly at the bottom.",
   "mandatory": true
 }
