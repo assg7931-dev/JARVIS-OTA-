@@ -6,11 +6,11 @@
   "gracePeriod": {
     "versionCode": 19,
     "versionName": "v19",
-    "graceExpiryUtc": "2026-11-18T17:10:34Z",
+    "graceExpiryUtc": "2026-11-18T17:11:02Z",
     "warningMessage": "Aapka previous version band hone wala hai. Kripya time rehte naya version install karein."
   },
   "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.3.7/app-release.apk",
-  "sha256": "cb215dbc344099d254e5490c733c53f2910b3c5d4551181d9d5394f1e1d1ece7",
+  "sha256": "c689d788d1ad82ff12b957e553181005b1af648e80e7684a045083a0ff0cd7f2",
   "releaseNotes": "# JARVIS v2.3.7 Release Notes\n\n### What's New in v2.3.7:\n\n- **Flagship Gemini 3.8 Live Default:**\n  - Fully upgraded the default model to `MODEL_3_8_LIVE` (`models/gemini-3.8-live`).\n  - Permanently removed deprecated experimental model `MODEL_2_0_FLASH_EXP`.\n  - Automatic fallback and migration ensures smooth upgrade without resetting user preferences.\n\n- **Gender-Aligned Voice Controls & Persona Integrity:**\n  - Afreen / Girlfriend mode strictly enforces female voice selection (`Aoede` as default, `Kore`).\n  - Jarvis Pro / Silent Soul modes strictly enforce male voice selection (`Puck`, `Fenrir`, `Charon`).\n  - Added real-time voice filtering to eliminate mismatched voice and prompt combinations.\n\n- **Stability & Performance Optimization:**\n  - Optimized WebSocket fallback resolution order.\n  - Polished settings UI and streamlined model synchronization.",
   "mandatory": true
 }
