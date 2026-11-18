@@ -1,16 +1,16 @@
 {
-  "latestVersion": "2.3.6",
-  "versionCode": 19,
-  "minSupportedVersionCode": 19,
-  "hardBlockedBeforeCode": 18,
+  "latestVersion": "2.3.7",
+  "versionCode": 20,
+  "minSupportedVersionCode": 20,
+  "hardBlockedBeforeCode": 19,
   "gracePeriod": {
-    "versionCode": 18,
-    "versionName": "v18",
-    "graceExpiryUtc": "2026-11-17T18:31:52Z",
+    "versionCode": 19,
+    "versionName": "v19",
+    "graceExpiryUtc": "2026-11-18T17:10:34Z",
     "warningMessage": "Aapka previous version band hone wala hai. Kripya time rehte naya version install karein."
   },
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.3.6/app-release.apk",
-  "sha256": "0e0e170da4b3579532fa6ddf13e7ccdaa1c5731590becc997b51a90c82f2d1a4",
-  "releaseNotes": "# JARVIS v2.3.6 Release Notes\n\n### What's New in v2.3.6:\n\n- **Instant Conversational Fast-Track & Semantic VAD:**\n  - Intelligent real-time completion detection (`isUtteranceComplete`) across Hindi, Urdu, Hinglish, Arabic, and English.\n  - Fast-tracks turn response generation on a natural ~150ms pause instead of forcing a 420ms\u2013680ms wait for completed statements.\n  - Dual-path endpointing: triggers turn commit directly upon complete transcript arrival and via the 20ms VAD audio frame loop.\n  - Anti-cutoff guard preserves the full adaptive dynamic silence window (420ms\u2013680ms) whenever trailing hesitation or conjunctions are detected.\n\n- **Real-Time Gemini Live Interim ASR Streaming:**\n  - Full ingestion support for `interimInputTranscription` and root-level transcript updates directly from Google Gemini Live WebSocket.\n  - Smart hypothesis merging eliminates duplicate tokens and provides real-time streaming speech text without latency.\n\n- **Enhanced Quran Tilawat & Tafseer Engine:**\n  - Mandatory Ta'awwudh (*A'udhu billah*) & Tasmiyah (*Bismillah*) opening recitation before any Surah/Ayah tilawat.\n  - Offline zero-latency playback for Surah Al-Fatiha and Surah Al-Baqarah (Verses 1\u201310) with cached multi-ayah streaming.\n  - Flexible multi-ayah range detection (e.g., *\"no 1 aayt se 10 tak\"*, *\"5 tak continue padho\"*) and polite Tarjuma/Tafseer inquiry flow.\n\n- **Loving Companion & UI Enhancements:**\n  - Preserved girlfriend / loving tone warmth and affection during Quran tilawat, translations, and everyday conversation.\n  - Interactive mic on/off tap button for easy manual toggling.\n  - Cleaned up footer layout with Gemini version and power details repositioned cleanly at the bottom.",
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.3.7/app-release.apk",
+  "sha256": "cb215dbc344099d254e5490c733c53f2910b3c5d4551181d9d5394f1e1d1ece7",
+  "releaseNotes": "# JARVIS v2.3.7 Release Notes\n\n### What's New in v2.3.7:\n\n- **Flagship Gemini 3.8 Live Default:**\n  - Fully upgraded the default model to `MODEL_3_8_LIVE` (`models/gemini-3.8-live`).\n  - Permanently removed deprecated experimental model `MODEL_2_0_FLASH_EXP`.\n  - Automatic fallback and migration ensures smooth upgrade without resetting user preferences.\n\n- **Gender-Aligned Voice Controls & Persona Integrity:**\n  - Afreen / Girlfriend mode strictly enforces female voice selection (`Aoede` as default, `Kore`).\n  - Jarvis Pro / Silent Soul modes strictly enforce male voice selection (`Puck`, `Fenrir`, `Charon`).\n  - Added real-time voice filtering to eliminate mismatched voice and prompt combinations.\n\n- **Stability & Performance Optimization:**\n  - Optimized WebSocket fallback resolution order.\n  - Polished settings UI and streamlined model synchronization.",
   "mandatory": true
 }
