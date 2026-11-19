@@ -1,16 +1,16 @@
 {
-  "latestVersion": "2.3.7",
-  "versionCode": 20,
-  "minSupportedVersionCode": 20,
-  "hardBlockedBeforeCode": 19,
+  "latestVersion": "2.4.0",
+  "versionCode": 21,
+  "minSupportedVersionCode": 21,
+  "hardBlockedBeforeCode": 20,
   "gracePeriod": {
-    "versionCode": 19,
-    "versionName": "v19",
-    "graceExpiryUtc": "2026-11-18T17:11:02Z",
+    "versionCode": 20,
+    "versionName": "v20",
+    "graceExpiryUtc": "2026-11-19T21:10:13Z",
     "warningMessage": "Aapka previous version band hone wala hai. Kripya time rehte naya version install karein."
   },
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.3.7/app-release.apk",
-  "sha256": "c689d788d1ad82ff12b957e553181005b1af648e80e7684a045083a0ff0cd7f2",
-  "releaseNotes": "# JARVIS v2.3.7 Release Notes\n\n### What's New in v2.3.7:\n\n- **Flagship Gemini 3.8 Live Default:**\n  - Fully upgraded the default model to `MODEL_3_8_LIVE` (`models/gemini-3.8-live`).\n  - Permanently removed deprecated experimental model `MODEL_2_0_FLASH_EXP`.\n  - Automatic fallback and migration ensures smooth upgrade without resetting user preferences.\n\n- **Gender-Aligned Voice Controls & Persona Integrity:**\n  - Afreen / Girlfriend mode strictly enforces female voice selection (`Aoede` as default, `Kore`).\n  - Jarvis Pro / Silent Soul modes strictly enforce male voice selection (`Puck`, `Fenrir`, `Charon`).\n  - Added real-time voice filtering to eliminate mismatched voice and prompt combinations.\n\n- **Stability & Performance Optimization:**\n  - Optimized WebSocket fallback resolution order.\n  - Polished settings UI and streamlined model synchronization.",
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/v2.4.0/app-release.apk",
+  "sha256": "17f97014edf0d6eeb3a33f71ade35a910ad0034cbe4ccd324f3d768a1c0761b1",
+  "releaseNotes": "# JARVIS v2.4.0 Release Notes\n\n### What's New in v2.4.0:\n\n- **Enhanced Holy Quran Engine (3-Mode Recitation, Meaning & Classical Tafseer):**\n  - **Authentic Tajweed Phonetics:** Resolved vocoder stuttering and pronunciation breakdown by enforcing clean Latin Tajweed phonetics (`\ud83c\udf99\ufe0f Tilawat (Tajweed Phonetics)`) and eliminating raw Arabic Unicode character leakage into spoken output.\n  - **Persona-Adaptive Tilawat & Tarjuma:** All 3 modes (Jarvis Pro, Afreen / Girlfriend Mode, Silent Soul) dynamically recite Tilawat and provide faithful Urdu/Hindi/English Tarjuma (translations) in their unique conversational tones.\n  - **In-Depth Tafseer (*Tafsir Ibn Kathir*):** Contextual explanations of verses including revelation circumstances (*Shan-e-Nuzool*), cross-referenced Ahadith, and core theological/moral wisdom.\n  - **Online & Offline Dual-Engine:** Added `en.transliteration` online fetching via `api.alquran.cloud` alongside 138 curated offline verses and automatic Arabic-to-phonetic fallback transliteration.\n\n- **Coding Agent & Sub-Agent Maya Parity:**\n  - Upgraded `JarvisCodingAgent` and `JarvisSubAgentManager` candidate models with the full flagship lineup: `gemini-3.8-flash`, `3.7-flash`, `3.6-flash`, `3.5-flash`, `3.5-flash-lite`, `3.1-flash-lite`, `2.5-flash`, `2.5-flash-lite`, `2.0-flash`, `1.5-flash`, and `gemini-flash-latest`.\n  - Added robust automatic fallback routing across model families to ensure uninterrupted autonomous tool execution and code generation.\n  - Configurable thinking budget for multi-step reasoning and algorithmic problem solving.\n\n- **Ultra-Low Latency Audio & Voice Response:**\n  - Fast-track voice activity detection (VAD) with optimized endpointing (~70ms) and conversational pause tuning (~100ms) for snappy, near-instant voice interactions.\n  - Optimized low-latency `AudioTrack` playback pipeline to minimize buffer latency during live streaming audio synthesis.\n  - Eliminated duplicate client tool registration in WebSocket session setup for leaner payloads.\n\n- **Stability & Polish:**\n  - Pre-computed prompt interpolations in `PromptGenerator.kt` to eliminate Kotlin compilation issues.\n  - Cleaned and verified bracket balancing and model lifecycle management.\n\n---\n\n# JARVIS v2.3.7 Release Notes\n\n### What's New in v2.3.7:\n\n- **Flagship Gemini 3.8 Live Default:**\n  - Fully upgraded the default model to `MODEL_3_8_LIVE` (`models/gemini-3.8-live`).\n  - Permanently removed deprecated experimental model `MODEL_2_0_FLASH_EXP`.\n  - Automatic fallback and migration ensures smooth upgrade without resetting user preferences.\n\n- **Gender-Aligned Voice Controls & Persona Integrity:**\n  - Afreen / Girlfriend mode strictly enforces female voice selection (`Aoede` as default, `Kore`).\n  - Jarvis Pro / Silent Soul modes strictly enforce male voice selection (`Puck`, `Fenrir`, `Charon`).\n  - Added real-time voice filtering to eliminate mismatched voice and prompt combinations.\n\n- **Stability & Performance Optimization:**\n  - Optimized WebSocket fallback resolution order.\n  - Polished settings UI and streamlined model synchronization.",
   "mandatory": true
 }
