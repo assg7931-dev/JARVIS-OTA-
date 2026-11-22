@@ -6,11 +6,11 @@
   "gracePeriod": {
     "versionCode": 21,
     "versionName": "v21",
-    "graceExpiryUtc": "2026-11-22T09:54:41Z",
+    "graceExpiryUtc": "2026-11-22T09:55:21Z",
     "warningMessage": "Aapka previous version band hone wala hai. Kripya time rehte naya version install karein."
   },
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.4.1/app-release.apk",
-  "sha256": "b318a2d0d119e2c1df848fc8c9a69aec34322e84ca97a7d6c069993b5ba8ff40",
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/v2.4.1/app-release.apk",
+  "sha256": "2544804daebfb13163cf0bbbe62b02b160acaf4591cd1723e005bd2f742ca4f7",
   "releaseNotes": "# JARVIS v2.4.1 Release Notes\n\n### What's New in v2.4.1:\n\n- **Instant Live Session Connection & Zero-Lag Teardown:**\n  - Upgraded WebSocket lifecycle to immediately cancel stale socket streams (`0ms` teardown), completely eliminating parallel connection collisions, Google server throttling, and session startup delays across all 3 modes.\n  - Eliminated artificial 1\u20132s backoff pauses during model fallback, replacing them with instant `150ms` fast-reconnect.\n\n- **Asli Emotions (Soul Mode) Native Audio Architecture:**\n  - Dedicated Gemini 2.5 Native Audio engine (`gemini-2.5-flash-native-audio-preview-12-2025`) activated when Soul Mode / Asli Emotions is enabled for Afreen (Girlfriend Mode) \u2014 delivering genuine human breath, laughter, emotional inflections, and authentic presence.\n  - Clean dual-model toggle: Ultra-low latency Gemini 3.8 Live when Asli Emotions is toggled OFF, and rich expressive Native Audio when toggled ON.\n\n- **Silent Soul Mode Fully Fixed & Calibrated:**\n  - Resolved session initialization stall by restoring Native Audio alignment (`MODEL_SOUL_CONVERSATION`) and case-insensitive persona matching in conversation services and prompt generators.\n  - Full personality isolation with direct, minimal, zero-fluff neural core responses and Charon vocal styling.\n\n- **Voice Activity Detection & Low-Latency Audio Tuning:**\n  - Relaxed VAD thresholds (0.028 onset / 0.016 continuation) with adaptive hysteresis for comfortable, natural speech recognition without listening stalls.\n  - Streamlined acoustic echo protection and stage-direction voice cleanup.",
   "mandatory": true
 }
