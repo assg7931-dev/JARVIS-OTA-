@@ -6,11 +6,11 @@
   "gracePeriod": {
     "versionCode": 23,
     "versionName": "v23",
-    "graceExpiryUtc": "2026-11-24T09:36:14Z",
+    "graceExpiryUtc": "2026-11-24T09:37:48Z",
     "warningMessage": "Aapka previous version band hone wala hai. Kripya time rehte naya version install karein."
   },
-  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/2.4.3/app-release.apk",
-  "sha256": "a78326b93aa76cdbe88a665de89f2b1f3545b5f3903b99aa0ac1facf593ea4dc",
+  "downloadUrl": "https://github.com/assg7931-dev/JARVIS-OTA-/releases/download/v2.4.3/app-release.apk",
+  "sha256": "ae2f1ed36cde465b961995df1d2a291b0d370d82e50b98295b943e4e3fb9454d",
   "releaseNotes": "# JARVIS v2.4.3 Release Notes\n\n### What's New in v2.4.3:\n\n- **Ultra-Fast Session Connection Across All 3 Modes:**\n  - Slashed initial setup payload by over ~85% (from ~280 KB down to ~25 KB), reducing Gemini Live server handshake latency from 8\u201310s down to <1s across Afreen, JARVIS Pro, and Silent Soul modes.\n  - Eliminated duplicate temporal, memory, multilingual, and procedural instruction blocks from `PromptGenerator.kt` while preserving 100% of authentic persona rules and emotional warmth.\n  - Cached 94 tool declarations lazily in `GeminiLiveWebSocket.kt` with streamlined descriptions, eliminating runtime heap allocations during connection setup.\n\n- **Sub-Agent Provider Visibility Fix in Release Builds:**\n  - Added explicit `@SerializedName` annotations across all `SubAgentKey` fields and comprehensive ProGuard keep rules for `com.jarvis.assistant.**` and Gson `TypeToken`.\n  - Configured release builds with full bytecode consistency matching Android IDE Debug builds, ensuring added Sub-Agent provider cards remain visible.",
   "mandatory": true
 }
